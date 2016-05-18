@@ -1,9 +1,10 @@
-# sampleNod
+# nodejs
 This repository contains the files necessary to run a sample application in Node.js and to run CI tests on Shippable.
 
 This Node.js app is a basic two-tier web app consisting of a front-end web service and a back-end api service.
 
-
+Build Status:
+[![Run Status](https://api.shippable.com/projects/573654952a8192902e200e8a/badge?branch=master)](https://app.shippable.com/projects/573654952a8192902e200e8a)
 
 Contents:
 This repository has 6 files and the functions of each file are as follows:
