@@ -9,4 +9,5 @@ env:
 build:
   ci:
     - npm install
+    - mkdir -p shippable/testresults
     - npm test
