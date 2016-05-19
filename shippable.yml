@@ -15,4 +15,4 @@ build:
     - cd shippable/testresults
     - ls -a
     - pwd
-    - cat results.xml
+    - cat result.xml
