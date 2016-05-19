@@ -4,8 +4,10 @@ node_js:
   - 0.12
 
 env:
-  - XUNIT_FILE=shippable/testresults/result.xml
-
+  global:
+    - XUNIT_FILE=shippable/testresults/result.xml
+    - secure: J9L6KCyno9EOh+vd6Q9sauTyFhOfse4hZYzxc32KzOVHqh2J2RWHnHp86TfsHT0tVs31xFDdlJrmsin+c9kziuZXKDPbleK4GJZ9oEC9HLxPDOlz4UfqxUolUCTPVwMqoj9mMFwgy1Y2v1G59HSxZ2gRFJIa61ggXradVinMSAqpWD57hakCRDmOgMkcTxDprNjHcB1reTd+FA98cDf+9BSFeuahgO+wJR1Ur8Ilu5zWpe9n+Z/XazbKEFEAjRl63KCmuv8OW8qBbTtp1XHrjGoesaPviQIVWoXunpF9eEK3vIAjd97YBXDoomO+lcc4gHLHTASItV9+Syuq6aUGPw==
+  
 build:
   ci:
     - mkdir -p shippable/testresults
