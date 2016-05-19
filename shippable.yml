@@ -7,7 +7,8 @@ env:
   global:
     - XUNIT_FILE=shippable/testresults/result.xml
     - secure: J9L6KCyno9EOh+vd6Q9sauTyFhOfse4hZYzxc32KzOVHqh2J2RWHnHp86TfsHT0tVs31xFDdlJrmsin+c9kziuZXKDPbleK4GJZ9oEC9HLxPDOlz4UfqxUolUCTPVwMqoj9mMFwgy1Y2v1G59HSxZ2gRFJIa61ggXradVinMSAqpWD57hakCRDmOgMkcTxDprNjHcB1reTd+FA98cDf+9BSFeuahgO+wJR1Ur8Ilu5zWpe9n+Z/XazbKEFEAjRl63KCmuv8OW8qBbTtp1XHrjGoesaPviQIVWoXunpF9eEK3vIAjd97YBXDoomO+lcc4gHLHTASItV9+Syuq6aUGPw==
-  
+    - secure: SvlnnP36HBXYHCpBbZsGCej3H5cRmyy815356iGF0YESgbxc28jnkXBNPpJSR3zodyiFdpEDkW+6ZGXrSaFHZ0p0q0fRa7pxxlN0qBMh4RzyKeZAstR+G6TFt0PZaO0F5KuPl1Dhs6Tsy77ovWZrZFiOq1KAvHxGGbBB7MqhPHIEWFj+ZvIPvB4GtlJ8Fd4kiyJCgUYizX+7kHSnq0Pv3Dk93AvQcEephTtWh148WC2DWKEVHCoShi2uWfQjEaSIq/YaSTFTIsTnvlwSoB0BgeWuRY2q7N1es/kR06Ci5oFzJ3cE+FVF1O4hKmfTpy9qCAUwQyZiUuEshf35IaTeJg==
+    
 build:
   ci:
     - mkdir -p shippable/testresults
