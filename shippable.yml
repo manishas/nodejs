@@ -14,3 +14,5 @@ build:
   on_failure:
     - cd shippable/testresults
     - ls -a
+    - pwd
+    - cat results.xml
