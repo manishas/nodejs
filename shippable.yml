@@ -3,8 +3,11 @@ language: node_js
 node_js:
   - 0.12
 
+env:
+  - XUNIT_FILE=shippable/testresults/result.xml
+
 build:
   ci:
+    - mkdir -p shippable/testresults
     - npm install
     - npm test
-      
