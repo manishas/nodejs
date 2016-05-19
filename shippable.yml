@@ -10,7 +10,7 @@ build:
   ci:
     - mkdir -p shippable/testresults
     - npm install
-    - npm test
+    - grunt
   on_failure:
     - cd shippable/testresults
     - ls -a
