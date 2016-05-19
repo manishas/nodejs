@@ -16,3 +16,8 @@ build:
     - ls -a
     - pwd
     - cat result.xml
+  on_success:
+    - cd shippable/testresults
+    - ls -a
+    - pwd
+    - cat result.xml
